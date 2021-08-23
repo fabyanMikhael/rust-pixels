@@ -2,11 +2,13 @@
 
 use macroquad::prelude::*;
 
+//this repo is made for a joke pls ignore
+
 fn window_conf() -> Conf {
     Conf {
         window_title: "One Pixel".to_owned(),
-        window_height: 1,
-        window_width: 1,
+        window_height: 27,
+        window_width: 32,
         ..Default::default()
     }
 }
